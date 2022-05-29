@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/104026290/170880172-074360cc-7882-49c5-9b6a-c2c5d317a3e5.png)
 
 ## Autotests
-###1. Задание
+### 1. Задание
 Проверить, что статус код 200 и приходит строка в body
 ```js
 pm.test("Status code is 200", function () {
