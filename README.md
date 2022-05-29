@@ -1,4 +1,9 @@
-# Postman tests
+# Оглавление
+- [Отправка данных методом GET и POST](https://github.com/TamirlanMakhov/Postman#gr_29.postman_collection)
+- [Автотесты](https://github.com/TamirlanMakhov/Postman#Autotests)
+
+---------------------------------------------------------------------------------------------------------------
+
 
 ## gr_29.postman_collection - отправление данных при помощи GET/POST
 1. На адрес http://162.55.220.72:5005 послать имя и возраст методом GET: 
