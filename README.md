@@ -24,7 +24,7 @@
 ![image](https://user-images.githubusercontent.com/104026290/170880172-074360cc-7882-49c5-9b6a-c2c5d317a3e5.png)
 
 ## Autotests
-### 1. Задание
+### 1. Задание: На адрес http://162.55.220.72:5005/first послать данные методом GET и написать автотест
 Проверить, что статус код 200 и приходит строка в body
 ```js
 pm.test("Status code is 200", function () {
@@ -32,7 +32,7 @@ pm.test("Status code is 200", function () {
 });
 ```
 
-### 2. Задание
+### 2. Задание: На адрес http://162.55.220.72:5005/user_info_3 послать данные методом POST и написать автотест
 Спарсить response body в json
 ```js
 let resp = pm.response.json();
@@ -96,7 +96,7 @@ pm.test("Salary after 1.5", function () {
     pm.expect(resp.family.u_salary_1_5_year).to.eql(+req.salary*4);
 });
 ```
-### 3. Задание
+### 3. Задание: На сервер http://162.55.220.72:5005/object_info_3 послать данные методом GET и написать автотест
 // стаус код 200
  ```js
 pm.test("Status code is 200", function () {
@@ -168,7 +168,7 @@ pm.test("dog is 4 years old", function () {
 });
 ```
 
-### 4. Задание
+### 4. Задание: На сервер http://162.55.220.72:5005/object_info_4 послать данные методом GET и написать автотест:
 // код 200
 ```js
 pm.test("Status code is 200", function () {
@@ -254,7 +254,7 @@ for (let i=0; i < resp.salary.length; i++) {
 }
 ```
 
-### 5. Задание
+### 5. Задание: На сервер http://162.55.220.72:5005/user_info_2 послать данные методом POST и написать автотест:
 // статус 200
 ```js
 pm.test("Status code is 200", function () {
