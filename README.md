@@ -1,7 +1,9 @@
 # Postman
 ## Оглавление
 - [Отправка данных методом GET и POST](https://github.com/TamirlanMakhov/Postman#simple-req)
-- [Автотесты](https://github.com/TamirlanMakhov/Postman#Autotests)
+- Автотесты
+
+    1. [Автотесты по курсу Вадима Ксендзова](https://github.com/TamirlanMakhov/Postman#Autotests)
 
 ---------------------------------------------------------------------------------------------------------------
 
