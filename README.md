@@ -1,11 +1,11 @@
 # Оглавление
-- [Отправка данных методом GET и POST](https://github.com/TamirlanMakhov/Postman#gr_29.postman_collection)
+- [Отправка данных методом GET и POST](https://github.com/TamirlanMakhov/Postman#simple-req)
 - [Автотесты](https://github.com/TamirlanMakhov/Postman#Autotests)
 
 ---------------------------------------------------------------------------------------------------------------
 
 
-## gr_29.postman_collection - отправление данных при помощи GET/POST
+## Simple req - отправление данных при помощи GET/POST
 1. На адрес http://162.55.220.72:5005 послать имя и возраст методом GET: 
 ![image](https://user-images.githubusercontent.com/104026290/170879763-cbd68a13-a36d-4e67-95af-cb4c4775a41c.png)
 
